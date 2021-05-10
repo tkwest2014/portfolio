@@ -40,11 +40,19 @@ ul{
 
 .header{
   color: hsla(305, 42%, 23%, 1);
+  font-family: sans-serif;
 }
 
 .descrip{
   font-style: italic;
-  font-family: serif;
+  font-family: 'Gentium Basic', serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 a[href="#"]{
@@ -61,4 +69,8 @@ a[href="https://github.com/tkwest2014/semantic-elements"]{
   text-decoration: none;
   border-radius: 0.5rem;
   padding: 0.5rem;
+}
+
+.fa-facebook{
+  color: blue;
 }
