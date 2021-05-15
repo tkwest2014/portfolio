@@ -9,6 +9,12 @@ h2{
 
 h3{
   color: rgba(33, 66, 5, 1);
+  transition: background-color 1s ease 0.5s;
+
+}
+
+h3:hover{
+  background-color: white;
 }
 
 img{
@@ -23,6 +29,10 @@ ul{
   padding: 0.5rem;
 }
 
+p::first-letter{
+  font-size: 130%;
+}
+
 .navbar{
   display: inline;
   margin: 1rem;
@@ -31,6 +41,12 @@ ul{
 .navbar a{
   text-decoration: none;
   color: white;
+  transition: font-size 2s ease-in 0.5s;
+}
+
+.navbar a:hover{
+  color: black;
+  font-size: 150%;
 }
 
 .paragraph{
@@ -46,6 +62,10 @@ ul{
 .descrip{
   font-style: italic;
   font-family: 'Gentium Basic', serif;
+}
+
+.credentials li:nth-child(2n){
+  font-weight: bolder;
 }
 
 .container{
