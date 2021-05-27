@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+
+  <body>
+    <h1>Contact Me</h1>
+
+    <form method="GET">
+      <label>Your Name:
+        <input type="text" name="contactName">
+      </label>
+
+      <label>Your Email:
+        <input type="email" name="contactEmail">
+      </label>
+
+      <fieldset class="checkbox">
+        <legend>What is your reason for filling out the form?</legend>
+        <label>Project Inquiry
+          <input type="checkbox" name="reason" value="project">
+          <span class="checkmark"></span>
+        </label>
+        <label>Website Issues
+          <input type="checkbox" name="reason" value="website">
+          <span class="checkmark"></span>
+        </label>
+        <label>General Question
+          <input type="checkbox" name="reason" value="general">
+          <span class="checkmark"></span>
+        </label>
+      </fieldset>
+
+      <label>Reason for Contacting:
+        <textarea name="contactReason" rows="8" cols="50"></textarea>
+      </label>
+
+      <label>How useful did you find this form?
+        <select name="useful">
+          <option value="">Please Select</option>
+          <option value="useful">It was useful</option>
+          <option value="moderate">It was ok</option>
+          <option value="difficult">It was not useful</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Contact Us!">
+
+    </form>
+  </body>
+</html>
